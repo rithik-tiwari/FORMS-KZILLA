@@ -35,7 +35,7 @@ function App() {
           </div>
         </div>
       </nav>
-      <form  action="mailto:gyantiwari420@gmail.com" method="post" enctype="text/plain">
+      <form  action="mailto:gyantiwari10101@gmail.com" method="post" enctype="text/plain">
       <div className="forms-input">
         <label for="basic-url" className="form-label">
           First Name
