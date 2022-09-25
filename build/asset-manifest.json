@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/FORMS-KZILLA/static/css/main.b4c683b8.css",
+    "main.js": "/FORMS-KZILLA/static/js/main.a14ca117.js",
+    "static/js/787.28cb0dcd.chunk.js": "/FORMS-KZILLA/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/FORMS-KZILLA/index.html",
+    "main.b4c683b8.css.map": "/FORMS-KZILLA/static/css/main.b4c683b8.css.map",
+    "main.a14ca117.js.map": "/FORMS-KZILLA/static/js/main.a14ca117.js.map",
+    "787.28cb0dcd.chunk.js.map": "/FORMS-KZILLA/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4c683b8.css",
+    "static/js/main.a14ca117.js"
+  ]
+}
