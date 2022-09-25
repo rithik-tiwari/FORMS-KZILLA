@@ -35,17 +35,17 @@ function App() {
           </div>
         </div>
       </nav>
-      <form  action="mailto:gyantiwari420@gmail.com" method="post" enctype="text/plain">
+      <form  action="mailto:gyantiwari10101@gmail.com" method="post" enctype="text/plain">
       <div className="forms-input">
         <label for="basic-url" className="form-label">
           First Name
         </label>
         <div className="input-group01">
-          <input type="text" aria-label="First name" className="form-control" />
+          <input type="text" aria-label="First name" className="form-control" name="firstName" />
           <label for="basic-url" className="form-label">
             Last Name
           </label>
-          <input type="text" aria-label="Last name" className="form-control" />
+          <input type="text" aria-label="Last name" className="form-control" name="lastName" />
         </div>
         <label for="basic-url" className="form-label">
           Registration Number
@@ -57,6 +57,7 @@ function App() {
           <input
             type="text"
             className="form-control"
+            name="registrationNumber"
             placeholder="Registration Number"
             aria-label="Registration Number"
             aria-describedby="basic-addon1"
@@ -72,6 +73,7 @@ function App() {
           <input
             type="text"
             className="form-control"
+            name="phoneNumber"
             placeholder="Phone Number"
             aria-label="Phone Number"
             aria-describedby="basic-addon1"
@@ -82,7 +84,7 @@ function App() {
         </label>
 
         <div class="mb-3">
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="ab1234@srmist.edu.in"/>
+          <input type="email" class="form-control" name="srmMailId" id="exampleFormControlInput1" placeholder="ab1234@srmist.edu.in"/>
         </div>
 
         <label for="basic-url" className="form-label">
@@ -95,6 +97,7 @@ function App() {
           <input
             type="text"
             className="form-control"
+            name="githubLink"
             id="basic-url"
             aria-describedby="basic-addon3"
           />
@@ -109,6 +112,7 @@ function App() {
           <input
             type="text"
             className="form-control"
+            name="linkedINLink"
             id="basic-url"
             aria-describedby="basic-addon3"
           />
@@ -120,6 +124,7 @@ function App() {
           <span className="input-group-text">Why are you joining srm kzilla club</span>
           <textarea
             className="form-control"
+            name="reason to join srmKzilla"
             aria-label="With textarea"
           ></textarea>
         </div>
